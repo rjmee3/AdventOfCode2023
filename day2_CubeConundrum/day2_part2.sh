@@ -3,22 +3,14 @@
 # define input file path
 INFILE="input.txt"
 
-# define cube limits
-RED_MAX=12
-GREEN_MAX=13
-BLUE_MAX=14
-
 # init sum of IDs
-sum_ids=0
+sum_powers=0
 
 # read the lines of the file into the lines array
 mapfile -t lines_arr < "$INFILE"
 
 # for each line now in lines array
 for line in "${lines_arr[@]}"; do
-    # extract game id
-    game_id=$(echo "$line" | grep -oE "Game [0-9]+" | cut -d ' ' -f 2)
-
     # tokenize line based on delimiter
     IFS=';' tokens=( $line )
 
@@ -46,11 +38,12 @@ for line in "${lines_arr[@]}"; do
         fi
     done
     
-    # if all of the counts are below the maxs, add gameid to sum
-    if [ $red_count -le $RED_MAX ] && [ $green_count -le $GREEN_MAX ] && [ $blue_count -le $BLUE_MAX ]; then
-        sum_ids=$(($sum_ids + $game_id))
-    fi
+    # find the power of the set of cubes
+    power=$(($red_count * $green_count * $blue_count))
+
+    # add the power to the sum of powers
+    sum_powers=$(($sum_powers + $power))
 
 done
 
-echo "Sum of the IDs of possible games is $sum_ids"
+echo "Sum of the powers of every game is $sum_powers"
