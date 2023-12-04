@@ -1,7 +1,7 @@
 # [Advent Of Code 2023](https://adventofcode.com/2023)
 
 Hello and welcome to my git repository for Advent of Code 2023! To add an extra challenge for myself,
-I decided to randomly pick a language for each day. This gets me out of my comfort zone and forces me
+I decided to [randomly pick a language](https://wheelofnames.com/xvh-755) for each day. This gets me out of my comfort zone and forces me
 to learn a new language every now and then.
 
 ## [--- Day 1: Trebuchet?! ---](https://adventofcode.com/2023/day/1)
