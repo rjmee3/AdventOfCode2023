@@ -4,7 +4,7 @@ Hello and welcome to my git repository for Advent of Code 2023! To add an extra 
 I decided to randomly pick a language for each day. This gets me out of my comfort zone and forces me
 to learn a new language every now and then.
 
-### [Day 1: trebuchet?!](https://adventofcode.com/2023/day/1) - C++
+### [Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1) - C++
 C++ was a language I had used before, but I had to take a little time just to
 refresh my knowledge. I decided that regex would provide a simple solution to 
 part one, however on part 2 it was a little more difficult to figure out the
