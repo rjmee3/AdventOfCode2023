@@ -20,3 +20,10 @@ a regex search will, by default, consume characters as it searches a string. I
 modified my pattern slightly to avoid this issue, and then it worked perfectly.
 
 ### [Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2) - Bash
+Bash is something I used a little bit during a summer internship, and I needed
+a lot more refreshing to complete day two's problem. Eventually I got the hang
+of it, and utilized regex again to grep for game ids and cube counts. These regex
+patterns were far simpler compared to day one's regex patterns. Once I figured out 
+a solution to part one, it was easy to adapt my script to part two.
+
+### [Day 3: Gear Ratios](https://adventofcode.com/2023/day/3) - C
