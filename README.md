@@ -30,9 +30,6 @@ a solution to part one, it was easy to adapt my script to part two.
 
 ## [--- Day 3: Gear Ratios ---](https://adventofcode.com/2023/day/3)
 ### Written in C
-
-## [--- Day 5: If You Give A Seed A Fertilizer ---](https://adventofcode.com/2023/day/5)
-### Written in R
 C is the language I have been using the most lately, so I didn't need any warmup.
 
 ## [--- Day 4: Scratchcards ---](https://adventofcode.com/2023/day/4)
@@ -40,3 +37,6 @@ C is the language I have been using the most lately, so I didn't need any warmup
 I actually just finished up a project in college where I worked with a group to
 research and present about a language, and we did Ruby, so I am actually quite
 familiar with the language.
+
+## [--- Day 5: If You Give A Seed A Fertilizer ---](https://adventofcode.com/2023/day/5)
+### Written in R
